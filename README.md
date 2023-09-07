@@ -25,6 +25,7 @@ To simplify this process, we've created a user-friendly Colab notebook that will
     3. Prerequisite
     4. License 
     5. Additional information
+    
     **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
 6. Add relevant tags to the repository and files.
 7. Add the `dataset`, `hacktoberfest` labels to the DagsHub repository.
