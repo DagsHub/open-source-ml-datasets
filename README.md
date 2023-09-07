@@ -5,7 +5,7 @@ This repository holds open-source datasets for various machine learning domains 
 **Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
 ![banner](https://user-images.githubusercontent.com/66431403/193427111-af11f270-bce0-4ad8-b0f9-02526312a9c2.png)
 
-In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching open-source datasets to enhance accessibility and utility for the global machine-learning community.
+In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
 
 ## What is DagsHub?
 [DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
