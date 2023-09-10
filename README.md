@@ -1,4 +1,4 @@
-# Open Source Machine Learning Datasets 🐶
+            # Open Source Machine Learning Datasets 🐶
 This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
 ---
 
@@ -30,4 +30,4 @@ To simplify this process, we've created a user-friendly Colab notebook that will
     **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
 6. Add relevant tags to the repository and files.
 7. Add the `dataset`, `hacktoberfest` labels to the DagsHub repository.
-8. Open a Pull Request on [here](https://dagshub.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
+8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
