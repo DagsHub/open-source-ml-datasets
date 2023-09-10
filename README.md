@@ -1,4 +1,4 @@
-            # Open Source Machine Learning Datasets 🐶
+# Open Source Machine Learning Datasets 🐶
 This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
 ---
 
