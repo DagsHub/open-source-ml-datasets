@@ -3,6 +3,7 @@ This repository holds open-source datasets for various machine learning domains 
 ---
 
 **Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
+
 ![Hacktoberfest ML project - DagsHub](https://github.com/DagsHub/open-source-experiment-tracking/assets/66431403/dce6a0af-b6a7-4078-a77c-852dc5ae4bec)
 
 In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
@@ -29,4 +30,4 @@ To simplify this process, we've created a user-friendly Colab notebook that will
     **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
 6. Add relevant tags to the repository and files.
 7. Add the `dataset`, `hacktoberfest` labels to the DagsHub repository.
-8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
+8. Open a Pull Request on [here](https://dagshub.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
