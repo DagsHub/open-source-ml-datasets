@@ -1,10 +1,11 @@
-            # Open Source Machine Learning Datasets 🐶
+# Open Source Machine Learning Datasets
 This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
 ---
 
 **Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
 
-![Hacktoberfest ML project - DagsHub](https://github.com/DagsHub/open-source-experiment-tracking/assets/66431403/dce6a0af-b6a7-4078-a77c-852dc5ae4bec)
+![hero-narrow](https://github.com/DagsHub/open-source-ml-datasets/assets/66431403/ce84ea17-7ca4-4e44-8ca1-7785074b847f)
+
 
 In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
 
@@ -19,7 +20,7 @@ To simplify this process, we've created a user-friendly Colab notebook that will
 1. Sign-up to [Hacktoberfest](https://hacktoberfest.digitalocean.com/profile) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
 2. Join [Hacktoberfest 2023 Discord channel](https://discord.gg/xAGgkNht).
 3. Claim the dataset by opening a new issue [here](https://github.com/DagsHub/open-source-ml-datasets) and naming it after the dataset. Please make sure that the dataset wasn't claimed and that it’s open source.
-4. Import a Dataset from [Hugging Face](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing) using the Colab notebooks. 
+4. Import a Dataset using those Colab notebooks: [Hugging Face notebook](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle notebook](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing).
 5. Add a [README.md](http://README.md) file (e.g., [Librispeech ASR corpus](https://dagshub.com/DagsHub/Librispeech-ASR-corpus/src/master/README.md)) **to the repository on DagsHub** with the following information:
     1. Description
     2. Citation
@@ -29,5 +30,5 @@ To simplify this process, we've created a user-friendly Colab notebook that will
     
     **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
 6. Add relevant tags to the repository and files.
-7. Add the `dataset`, `hacktoberfest` labels to the DagsHub repository.
+7. Add the `dataset`, `hacktoberfest-2023`, `hacktoberfest` labels to the DagsHub repository.
 8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
