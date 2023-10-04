@@ -1,4 +1,4 @@
-            # Here are the details about the awesome-chatgpt-prompts HuggingFace dataset:
+# Here are the details about the awesome-chatgpt-prompts HuggingFace dataset:
 
 ## **Description**:
 This is a Dataset Repository of Awesome ChatGPT Prompts
