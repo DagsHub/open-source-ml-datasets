@@ -1,16 +1,14 @@
-                                    Here are the details about the Indian Movie Faces Dataset (IMFDB) Face Recognition dataset:
-
 **Description**:
-The Indian Movie Face database (IMFDB) is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability in terms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. This dataset can be used for Face Recognition.
+The "Students Performance" dataset is designed to predict students' end-of-term performances using machine learning techniques. The dataset consists of student records and features that include student grades, demographic, social, and school-related features. The data was collected using school reports and questionnaires.
 
 **Citation**:
-Shankar Setty, Moula Husain, Parisa Beham, Jyothi Gudavalli, Menaka Kandasamy, Radhesyam Vaddi, Vidyagouri Hemadri, J C Karure, Raja Raju, Rajan, Vijay Kumar and C V Jawahar. "Indian Movie Face Database: A Benchmark for Face Recognition Under Wide Variations" National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG), 2013.
+YÄ±lmaz N., Sekeroglu B. (2020) Student Performance Classification Using Artificial Intelligence Techniques. In: Aliev R., Kacprzyk J., Pedrycz W., Jamshidi M., Babanli M., Sadikoglu F. (eds) 10th International Conference on Theory and Application of Soft Computing, Computing with Words and Perceptions - ICSCCW-2019. ICSCCW 2019. Advances in Intelligent Systems and Computing, vol 1095. Springer, Cham
 
 **Prerequisite**:
-Knowledge of face recognition algorithms and techniques would be beneficial for using this dataset.
+Knowledge of machine learning algorithms and techniques would be beneficial for using this dataset.
 
 **License**:
-Taken From Kaggle. It's recommended to check the official source or contact the authors for accurate licensing information.
+Attribution 4.0 International (CC BY 4.0)
 
 **Additional Information**:
-IMFDB is the first face database that provides a detailed annotation of every image in terms of age, pose, gender, expression and type of occlusion that may help other face related applications. This dataset is modified in such a way that it is ready for training a Face Recognition model.
+The objective of this dataset is to understand how the student's performance (test scores) is affected by other variables (Gender, Ethnicity, Parental level of education, Lunch, Test preparation course).
