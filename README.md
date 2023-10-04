@@ -1,34 +1,89 @@
-# Open Source Machine Learning Datasets
-This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
----
+# GRIT: Large-Scale Training Corpus of Grounded Image-Text Pairs
 
-**Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
+## Description
+### Dataset Description
+- **Repository:** [Microsoft unilm](https://github.com/microsoft/unilm/tree/master/kosmos-2)
+- **Paper:** [Kosmos-2](https://arxiv.org/abs/2306.14824)
 
-![hero-narrow](https://github.com/DagsHub/open-source-ml-datasets/assets/66431403/ce84ea17-7ca4-4e44-8ca1-7785074b847f)
+### Dataset Summary
+We introduce GRIT, a large-scale dataset of Grounded Image-Text pairs, which is created based on image-text pairs from [COYO-700M](https://github.com/kakaobrain/coyo-dataset) and LAION-2B. We construct a pipeline to extract and link text spans (i.e., noun phrases, and referring expressions) in the caption to their corresponding image regions. More details can be found in the [paper](https://arxiv.org/abs/2306.14824).
 
+## Citation
+If you apply this dataset to any project and research, please cite our paper and coyo-700m:
+```
+@article{Kosmos2,
+  title={Kosmos-2: Grounding Multimodal Large Language Models to the World},
+  author={Zhiliang Peng and Wenhui Wang and Li Dong and Yaru Hao and Shaohan Huang and Shuming Ma and Furu Wei},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2306.14824}
+}
+@misc{kakaobrain2022coyo-700m,
+  title         = {COYO-700M: Image-Text Pair Dataset},
+  author        = {Minwoo Byeon, Beomhee Park, Haecheon Kim, Sungjun Lee, Woonhyuk Baek, Saehoon Kim},
+  year          = {2022},
+  howpublished  = {\url{https://github.com/kakaobrain/coyo-dataset}},
+}
+```
+## Prerequisite
+[More Information Needed]
 
-In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
+## License
+license: ms-pl
 
-## What is DagsHub?
-[DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
+## Additional Information
+### Supported Tasks
+During the construction, we excluded the image-caption pairs if no bounding boxes are retained. This procedure resulted in a high-quality image-caption subset of COYO-700M, which we will validate in the future.
 
-## What is this challenge?
-**Your mission is to import datasets from various sources**, such as Kaggle, Hugging Face, or any other relevant platforms, and integrate them into DagsHub. Hosting those datasets on DagsHub exposes them to our Data Engine, unlocking unique data management capabilities such as query, visualize, annotate, and streaming for ML training. Not only that, by adding crucial information and context to these datasets, you'll significantly boost their accessibility and usability. 
+Furthermore, this dataset contains text-span-bounding-box pairs. Thus, it can be used in many location-aware mono/multimodal tasks, such as phrase grounding, referring expression comprehension, referring expression generation, and open-world object detection.
 
-## How do I contribute?
-To simplify this process, we've created a user-friendly Colab notebook that will do the import for you! Here's a quick overview of what you need to do:
-1. Sign-up to [Hacktoberfest](https://hacktoberfest.digitalocean.com/profile) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
-2. Join [Hacktoberfest 2023 Discord channel](https://discord.gg/xAGgkNht).
-3. Claim the dataset by opening a new issue [here](https://github.com/DagsHub/open-source-ml-datasets) and naming it after the dataset. Please make sure that the dataset wasn't claimed and that it’s open source.
-4. Import a Dataset using those Colab notebooks: [Hugging Face notebook](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle notebook](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing).
-5. Add a [README.md](http://README.md) file (e.g., [Librispeech ASR corpus](https://dagshub.com/DagsHub/Librispeech-ASR-corpus/src/master/README.md)) **to the repository on DagsHub** with the following information:
-    1. Description
-    2. Citation
-    3. Prerequisite
-    4. License 
-    5. Additional information
-    
-    **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
-6. Add relevant tags to the repository and files.
-7. Add the `dataset`, `hacktoberfest-2023`, `hacktoberfest` labels to the DagsHub repository.
-8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
+### Data Instance
+One instance is
+```python
+{
+  'key': '000373938', 
+  'clip_similarity_vitb32': 0.353271484375, 
+  'clip_similarity_vitl14': 0.2958984375, 
+  'id': 1795296605919, 
+  'url': "https://www.thestrapsaver.com/wp-content/uploads/customerservice-1.jpg", 
+  'caption': 'a wire hanger with a paper cover that reads we heart our customers', 
+  'width': 1024, 
+  'height': 693, 
+  'noun_chunks': [[19, 32, 0.019644069503434333, 0.31054004033406574, 0.9622142865754519, 0.9603442351023356, 0.79298526], [0, 13, 0.019422357885505368, 0.027634161214033764, 0.9593302408854166, 0.969467560450236, 0.67520964]], 
+  'ref_exps': [[19, 66, 0.019644069503434333, 0.31054004033406574, 0.9622142865754519, 0.9603442351023356, 0.79298526], [0, 66, 0.019422357885505368, 0.027634161214033764, 0.9593302408854166, 0.969467560450236, 0.67520964]]
+}
+```
+- `key`: The generated file name when using img2dataset to download COYO-700M (omit it).
+- `clip_similarity_vitb32`: The cosine similarity between text and image(ViT-B/32) embeddings by [OpenAI CLIP](https://github.com/openai/CLIP), provided by COYO-700M.
+- `clip_similarity_vitl14`: The cosine similarity between text and image(ViT-L/14) embeddings by [OpenAI CLIP](https://github.com/openai/CLIP), provided by COYO-700M.
+- `id`: Unique 64-bit integer ID in COYO-700M.
+- `url`: The image URL.
+- `caption`: The corresponding caption.
+- `width`: The width of the image.
+- `height`: The height of the image.
+- `noun_chunks`: The noun chunks (extracted by [spaCy](https://spacy.io/)) that have associated bounding boxes (predicted by [GLIP](https://github.com/microsoft/GLIP)). The items in the children list respectively represent 'Start of the noun chunk in caption', 'End of the noun chunk in caption', 'normalized x_min', 'normalized y_min', 'normalized x_max', 'normalized y_max', 'confidence score'.
+- `ref_exps`: The corresponding referring expressions. If a noun chunk has no expansion, we just copy it. 
+
+### Download image
+We recommend to use [img2dataset](https://github.com/rom1504/img2dataset) tool to download the images. 
+1. Download the metadata. You can download it by cloning current repository:
+```bash
+git lfs install
+git clone https://huggingface.co/datasets/zzliang/GRIT
+```
+2. Install [img2dataset](https://github.com/rom1504/img2dataset).
+```bash
+pip install img2dataset
+```
+3. Download images
+You need to replace `/path/to/GRIT_dataset/grit-20m` with the local path to this repository. 
+```bash
+img2dataset --url_list /path/to/GRIT_dataset/grit-20m --input_format "parquet"\
+    --url_col "url" --caption_col "caption" --output_format webdataset \
+    --output_folder /tmp/grit --processes_count 4 --thread_count 64 --image_size 256 \
+    --resize_only_if_bigger=True --resize_mode="keep_ratio" --skip_reencode=True \
+    --save_additional_columns '["id","noun_chunks","ref_exps","clip_similarity_vitb32","clip_similarity_vitl14"]' \
+    --enable_wandb False
+```
+You can adjust some parameters according to your actual needs (e.g., `processes_count`, `thread_count`, `image_size`, `save_additional_columns`).
+More img2dataset hyper-parameters can be found in [here](https://github.com/rom1504/img2dataset#api).
