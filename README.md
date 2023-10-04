@@ -1,16 +1,14 @@
-                                    Here are the details about the Indian Movie Faces Dataset (IMFDB) Face Recognition dataset:
-
 **Description**:
-The Indian Movie Face database (IMFDB) is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability in terms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. This dataset can be used for Face Recognition.
+Brain Tumors are complex. There are a lot of abnormalities in the sizes and location of the brain tumor(s). This makes it really difficult for complete understanding of the nature of the tumor. Also, a professional Neurosurgeon is required for MRI analysis. Often times in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI’. So an automated system on Cloud can solve this problem. This Dataset has images in Train and test directories with 4 classes in each.
 
 **Citation**:
-Shankar Setty, Moula Husain, Parisa Beham, Jyothi Gudavalli, Menaka Kandasamy, Radhesyam Vaddi, Vidyagouri Hemadri, J C Karure, Raja Raju, Rajan, Vijay Kumar and C V Jawahar. "Indian Movie Face Database: A Benchmark for Face Recognition Under Wide Variations" National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG), 2013.
+ @misc{sartaj bhuvaji_ankita kadam_prajakta bhumkar_sameer dedge_swati kanchan_2020,
+	title={Brain Tumor Classification (MRI)},
+	url={https://www.kaggle.com/dsv/1183165},
+	DOI={10.34740/KAGGLE/DSV/1183165},
 
 **Prerequisite**:
-Knowledge of face recognition algorithms and techniques would be beneficial for using this dataset.
+Knowledge of Deep learning algorithms and techniques would be beneficial for using this dataset.
 
 **License**:
-Taken From Kaggle. It's recommended to check the official source or contact the authors for accurate licensing information.
-
-**Additional Information**:
-IMFDB is the first face database that provides a detailed annotation of every image in terms of age, pose, gender, expression and type of occlusion that may help other face related applications. This dataset is modified in such a way that it is ready for training a Face Recognition model.
+CC0: Public Domain
