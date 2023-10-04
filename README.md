@@ -1,41 +1,26 @@
 
 **Description**:
-The "flights.csv" dataset contains information about the flights of an airport. This dataset includes information such as departure and arrival time, delays, flight company, flight number, flight origin and destination, flight duration, distance, hour and minute of flight, and exact date and time of flight. This data can be used in management analysis and strategies and provide useful information about the performance of flights and placement companies. The analysis of the data in this dataset can be used as a basis for the following activities:
+The datasets provided include the players data for the Career Mode from FIFA 15 to EA Sports FC 24. The data allows multiple comparisons for the same players across the last 10 versions of the videogame.
 
-Analysis of time patterns and trends: by examining the departure and arrival time of the aircraft, changes and time changes, patterns and trends in flight behavior can be identified.
-Analysis of American companies: By viewing information about airlines such as the number of flights, the impact and overall performance, you can compare and analyze the performance of each company.
-Analysis of delays and service quality: By examining delays and arrival time, I can collect and analyze information about the quality of services provided by the airport and companies.
-Analysis of flight routes: by checking the origin and destination of flights, distances and flight duration, popular routes and people's choices can be identified and analyzed.
-Analysis of airport performance: by observing the characteristics of flights and airport performance, it is possible to identify and analyze the strengths and weaknesses of the airport and suggest improvements.
-It provides various tools for data analysis and visualization and can be used as a basis for managerial decisions in the field of aviation industry.
+Every player, coach, and team available in FIFA 15, 16, 17, 18, 19, 20, 21, 22, 23, and also EA Sports FC 24
 
-Airline Company Codes (in order of frequency for this dataset)
-WN -- Southwest Airlines Co.
+All FIFA updates from 10th September 2015 until 22nd September 2023
 
-DL -- Delta Air Lines Inc.
+109 attributes for players, 8 attributes for coaches, and 54 attributes for teams
 
-AA -- American Airlines Inc.
+URL of the scraped players, coaches, and teams
 
-UA -- United Air Lines Inc.
+Player positions, with the role in the club and in the national team
 
-B6 -- JetBlue Airways
+Player attributes with statistics as Attacking, Skills, Defense, Mentality, GK Skills, etc.
 
-AS -- Alaska Airlines Inc.
+Player personal data like Nationality, Club, DateOfBirth, Wage, Salary, etc.
 
-NK -- Spirit Air Lines
+Team data regarding their coaches, their overall value, and tactics
 
-G4 -- Allegiant Air
 
-F9 -- Frontier Airlines Inc.
 
-HA -- Hawaiian Airlines Inc.
-
-SY -- Sun Country Airlines d/b/a MN Airlines
-
-VX -- Virgin America
-
-**Citation**:
--
+**Citation**: ----
 
 **Prerequisite**:
 Knowledge of machine learning algorithms and techniques would be beneficial for using this dataset.
@@ -45,4 +30,13 @@ CC0: Public Domain
 
 **Additional Information**:
 SOURCES
-U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics
+https://sofifa.com/
+
+COLLECTION METHODOLOGY
+Python scripts (requests library)
+
+Data has been scraped from the publicly available website sofifa.com.
+
+As described in https://sofifa.com/robots.txt, there is no limitation at the time of scraping for collecting data for FIFA players, coaches, and teams.
+
+Limitations to scraping the website only relate to player comparisons and API.
