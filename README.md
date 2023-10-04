@@ -1,34 +1,128 @@
-# Open Source Machine Learning Datasets
-This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
----
+# Dataset Card for "emotion"
 
-**Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
+## Description
+- **Homepage:** [https://github.com/dair-ai/emotion_dataset](https://github.com/dair-ai/emotion_dataset)
+- **Repository:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+- **Paper:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+- **Point of Contact:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+- **Size of downloaded dataset files:** 16.13 MB
+- **Size of the generated dataset:** 47.62 MB
+- **Total amount of disk used:** 63.75 MB
 
-![hero-narrow](https://github.com/DagsHub/open-source-ml-datasets/assets/66431403/ce84ea17-7ca4-4e44-8ca1-7785074b847f)
+### Dataset Summary
 
+Emotion is a dataset of English Twitter messages with six basic emotions: anger, fear, joy, love, sadness, and surprise. For more detailed information please refer to the paper.
 
-In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
+## Citation
+If you use this dataset, please cite:
+```
+@inproceedings{saravia-etal-2018-carer,
+    title = "{CARER}: Contextualized Affect Representations for Emotion Recognition",
+    author = "Saravia, Elvis  and
+      Liu, Hsien-Chi Toby  and
+      Huang, Yen-Hao  and
+      Wu, Junlin  and
+      Chen, Yi-Shin",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D18-1404",
+    doi = "10.18653/v1/D18-1404",
+    pages = "3687--3697",
+    abstract = "Emotions are expressed in nuanced ways, which varies by collective or individual experiences, knowledge, and beliefs. Therefore, to understand emotion, as conveyed through text, a robust mechanism capable of capturing and modeling different linguistic nuances and phenomena is needed. We propose a semi-supervised, graph-based algorithm to produce rich structural descriptors which serve as the building blocks for constructing contextualized affect representations from text. The pattern-based representations are further enriched with word embeddings and evaluated through several emotion recognition tasks. Our experimental results demonstrate that the proposed method outperforms state-of-the-art techniques on emotion recognition tasks.",
+}
+```
 
-## What is DagsHub?
-[DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
+## Prerequisite
+[More Information Needed]
 
-## What is this challenge?
-**Your mission is to import datasets from various sources**, such as Kaggle, Hugging Face, or any other relevant platforms, and integrate them into DagsHub. Hosting those datasets on DagsHub exposes them to our Data Engine, unlocking unique data management capabilities such as query, visualize, annotate, and streaming for ML training. Not only that, by adding crucial information and context to these datasets, you'll significantly boost their accessibility and usability. 
+## License
+The dataset should be used for educational and research purposes only.
 
-## How do I contribute?
-To simplify this process, we've created a user-friendly Colab notebook that will do the import for you! Here's a quick overview of what you need to do:
-1. Sign-up to [Hacktoberfest](https://hacktoberfest.digitalocean.com/profile) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
-2. Join [Hacktoberfest 2023 Discord channel](https://discord.gg/xAGgkNht).
-3. Claim the dataset by opening a new issue [here](https://github.com/DagsHub/open-source-ml-datasets) and naming it after the dataset. Please make sure that the dataset wasn't claimed and that it’s open source.
-4. Import a Dataset using those Colab notebooks: [Hugging Face notebook](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle notebook](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing).
-5. Add a [README.md](http://README.md) file (e.g., [Librispeech ASR corpus](https://dagshub.com/DagsHub/Librispeech-ASR-corpus/src/master/README.md)) **to the repository on DagsHub** with the following information:
-    1. Description
-    2. Citation
-    3. Prerequisite
-    4. License 
-    5. Additional information
-    
-    **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
-6. Add relevant tags to the repository and files.
-7. Add the `dataset`, `hacktoberfest-2023`, `hacktoberfest` labels to the DagsHub repository.
-8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
+## Additional Information
+### Supported Tasks and Leaderboards
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+### Languages
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+### Dataset Structure
+
+#### Data Instances
+
+An example looks as follows.
+```
+{
+  "text": "im feeling quite sad and sorry for myself but ill snap out of it soon",
+  "label": 0
+}
+```
+
+#### Data Fields
+
+The data fields are:
+- `text`: a `string` feature.
+- `label`: a classification label, with possible values including `sadness` (0), `joy` (1), `love` (2), `anger` (3), `fear` (4), `surprise` (5).
+
+#### Data Splits
+
+The dataset has 2 configurations:
+- split: with a total of 20_000 examples split into train, validation and split
+- unsplit: with a total of 416_809 examples in a single train split
+
+| name    |  train | validation | test |
+|---------|-------:|-----------:|-----:|
+| split   |  16000 |       2000 | 2000 |
+| unsplit | 416809 |        n/a |  n/a |
+
+### Dataset Creation
+
+#### Curation Rationale
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Source Data
+
+##### Initial Data Collection and Normalization
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+##### Who are the source language producers?
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Annotations
+
+##### Annotation process
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+##### Who are the annotators?
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Personal and Sensitive Information
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+### Considerations for Using the Data
+
+#### Social Impact of Dataset
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Discussion of Biases
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Other Known Limitations
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+
+#### Dataset Curators
+
+[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
