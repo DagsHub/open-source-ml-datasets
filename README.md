@@ -1,16 +1,33 @@
-                                    Here are the details about the Indian Movie Faces Dataset (IMFDB) Face Recognition dataset:
 
 **Description**:
-The Indian Movie Face database (IMFDB) is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability in terms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. This dataset can be used for Face Recognition.
+This is a set of just over 20,000 games collected from a selection of users on the site Lichess.org, and how to collect more. I will also upload more games in the future as I collect them. This set contains the:
+
+Game ID;
+Rated (T/F);
+Start Time;
+End Time;
+Number of Turns;
+Game Status;
+Winner;
+Time Increment;
+White Player ID;
+White Player Rating;
+Black Player ID;
+Black Player Rating;
+All Moves in Standard Chess Notation;
+Opening Eco (Standardised Code for any given opening, list here);
+Opening Name;
+Opening Ply (Number of moves in the opening phase)
 
 **Citation**:
-Shankar Setty, Moula Husain, Parisa Beham, Jyothi Gudavalli, Menaka Kandasamy, Radhesyam Vaddi, Vidyagouri Hemadri, J C Karure, Raja Raju, Rajan, Vijay Kumar and C V Jawahar. "Indian Movie Face Database: A Benchmark for Face Recognition Under Wide Variations" National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG), 2013.
+MITCHELL J https://www.kaggle.com/datasnaek
 
 **Prerequisite**:
-Knowledge of face recognition algorithms and techniques would be beneficial for using this dataset.
+Knowledge of machine learning algorithms and techniques would be beneficial for using this dataset.
 
 **License**:
-Taken From Kaggle. It's recommended to check the official source or contact the authors for accurate licensing information.
+CC0: Public Domain
 
 **Additional Information**:
-IMFDB is the first face database that provides a detailed annotation of every image in terms of age, pose, gender, expression and type of occlusion that may help other face related applications. This dataset is modified in such a way that it is ready for training a Face Recognition model.
+SOURCES
+Collected the data using the Lichess API.
