@@ -14,7 +14,7 @@ This is a large corpus of 42,619 preprocessed text messages and emails sent by h
 
 # License
 
-The HONEST dataset is licensed under the  Apache 2.0.
+The All-Scam-Spam dataset is licensed under Apache 2.0.
 
 # Additional information
 
