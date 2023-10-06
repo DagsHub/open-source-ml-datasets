@@ -1,34 +1,56 @@
-# Open Source Machine Learning Datasets
-This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
----
+# Description
 
-**Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
+Dataset for Natural Language Inference in Hindi Language. BBC Hindi Dataset consists of textual-entailment pairs. Each row of the Datasets if made up of 4 columns - Premise, Hypothesis, Label and Topic. Context and Hypothesis is written in Hindi while Entailment_Label is in English. Entailment_label is of 2 types - entailed and not-entailed. Dataset can be used to train models for Natural Language Inference tasks in Hindi Language.
 
-![hero-narrow](https://github.com/DagsHub/open-source-ml-datasets/assets/66431403/ce84ea17-7ca4-4e44-8ca1-7785074b847f)
+# Citation
+
+    @inproceedings{uppal-etal-2020-two,
+    title = "Two-Step Classification using Recasted Data for Low Resource Settings",
+    author = "Uppal, Shagun  and
+      Gupta, Vivek  and
+      Swaminathan, Avinash  and
+      Zhang, Haimin  and
+      Mahata, Debanjan  and
+      Gosangi, Rakesh  and
+      Shah, Rajiv Ratn  and
+      Stent, Amanda",
+    booktitle = "Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing",
+    month = dec,
+    year = "2020",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.aacl-main.71",
+    pages = "706--719",
+    abstract = "An NLP model{'}s ability to reason should be independent of language. Previous works utilize Natural Language Inference (NLI) to understand the reasoning ability of models, mostly focusing on high resource languages like English. To address scarcity of data in low-resource languages such as Hindi, we use data recasting to create NLI datasets for four existing text classification datasets. Through experiments, we show that our recasted dataset is devoid of statistical irregularities and spurious patterns. We further study the consistency in predictions of the textual entailment models and propose a consistency regulariser to remove pairwise-inconsistencies in predictions. We propose a novel two-step classification method which uses textual-entailment predictions for classification task. We further improve the performance by using a joint-objective for classification and textual entailment. We therefore highlight the benefits of data recasting and improvements on classification performance using our approach with supporting experimental results.",
+}
 
 
-In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
 
-## What is DagsHub?
-[DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
+# Prerequisites
 
-## What is this challenge?
-**Your mission is to import datasets from various sources**, such as Kaggle, Hugging Face, or any other relevant platforms, and integrate them into DagsHub. Hosting those datasets on DagsHub exposes them to our Data Engine, unlocking unique data management capabilities such as query, visualize, annotate, and streaming for ML training. Not only that, by adding crucial information and context to these datasets, you'll significantly boost their accessibility and usability. 
+Data is structured in TSV format.
+Train and Test files are in seperate files.
+Each row contatins 4 columns - Premise, Hypothesis, Label and Topic.
+{'hypothesis': 'यह खबर की सूचना है|', 'label': 'entailed', 'premise': 'गोपनीयता की नीति', 'topic': '1'}
 
-## How do I contribute?
-To simplify this process, we've created a user-friendly Colab notebook that will do the import for you! Here's a quick overview of what you need to do:
-1. Sign-up to [Hacktoberfest](https://hacktoberfest.digitalocean.com/profile) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
-2. Join [Hacktoberfest 2023 Discord channel](https://discord.gg/xAGgkNht).
-3. Claim the dataset by opening a new issue [here](https://github.com/DagsHub/open-source-ml-datasets) and naming it after the dataset. Please make sure that the dataset wasn't claimed and that it’s open source.
-4. Import a Dataset using those Colab notebooks: [Hugging Face notebook](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle notebook](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing).
-5. Add a [README.md](http://README.md) file (e.g., [Librispeech ASR corpus](https://dagshub.com/DagsHub/Librispeech-ASR-corpus/src/master/README.md)) **to the repository on DagsHub** with the following information:
-    1. Description
-    2. Citation
-    3. Prerequisite
-    4. License 
-    5. Additional information
-    
-    **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
-6. Add relevant tags to the repository and files.
-7. Add the `dataset`, `hacktoberfest-2023`, `hacktoberfest` labels to the DagsHub repository.
-8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
+
+# License
+
+The BBC Hindi NLI Dataset is released under the MIT License.
+
+# Additional information
+
+## Dataset Curators
+It is written in the repo : https://github.com/avinsit123/hindi-nli-data that
+
+This corpus can be used freely for research purposes.
+The paper listed below provide details of the creation and use of the corpus. If you use the corpus, then please cite the paper.
+If interested in commercial use of the corpus, send email to midas@iiitd.ac.in.
+If you use the corpus in a product or application, then please credit the authors and Multimodal Digital Media Analysis Lab - Indraprastha Institute of Information Technology, New Delhi appropriately. Also, if you send us an email, we will be thrilled to know about how you have used the corpus.
+Multimodal Digital Media Analysis Lab - Indraprastha Institute of Information Technology, New Delhi, India disclaims any responsibility for the use of the corpus and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications.
+Rather than redistributing the corpus, please direct interested parties to this page
+Please feel free to send us an email:
+with feedback regarding the corpus.
+with information on how you have used the corpus.
+if interested in having us analyze your data for natural language inference.
+if interested in a collaborative research project.
