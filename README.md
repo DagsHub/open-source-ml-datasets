@@ -1,39 +1,34 @@
-# Description
+# Open Source Machine Learning Datasets
+This repository holds open-source datasets for various machine learning domains ready to download and use for ML!
+---
 
-The Multi-Dimensional Gender Bias Classification dataset is based on a general framework that decomposes gender bias in text along several pragmatic and semantic dimensions: bias from the gender of the person being spoken about, bias from the gender of the person being spoken to, and bias from the gender of the speaker. It contains seven large scale datasets automatically annotated for gender information (there are eight in the original project but the Wikipedia set is not included in the HuggingFace distribution), one crowdsourced evaluation benchmark of utterance-level gender rewrites, a list of gendered names, and a list of gendered words in English.
+**Welcome to DagsHub’s non-code contribution project for Hacktoberfest 2023!**
 
-# Citation
-
-@inproceedings{dinan-etal-2020-multi,
-    title = "Multi-Dimensional Gender Bias Classification",
-    author = "Dinan, Emily  and
-      Fan, Angela  and
-      Wu, Ledell  and
-      Weston, Jason  and
-      Kiela, Douwe  and
-      Williams, Adina",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.emnlp-main.23",
-    doi = "10.18653/v1/2020.emnlp-main.23",
-    pages = "314--331",
-    abstract = "Machine learning models are trained to find patterns in data. NLP models can inadvertently learn socially undesirable patterns when training on gender biased text. In this work, we propose a novel, general framework that decomposes gender bias in the text along several pragmatic and semantic dimensions: bias from the gender of the person being spoken about, bias from the gender of the person being spoken to, and bias from the gender of the speaker. Using this fine-grained framework, we automatically annotate eight large-scale datasets with gender information. In addition, we collect a new, crowdsourced evaluation benchmark. Distinguishing between gender bias along multiple dimensions enables us to train better and more fine-grained gender bias classifiers. We show our classifiers are valuable for a variety of applications, like controlling for gender bias in generative models, detecting gender bias in arbitrary text, and classifying text as offensive based on its genderedness.",
-}
+![hero-narrow](https://github.com/DagsHub/open-source-ml-datasets/assets/66431403/ce84ea17-7ca4-4e44-8ca1-7785074b847f)
 
 
-# Prerequisites
+In this exciting Hacktoberfest challenge, DagsHub invites you to join us in enriching the open-source dataset domain and enhancing its accessibility and capabilities for the global machine-learning community.
 
-The dataset can be used to train a model for the classification of various kinds of gender bias. The model performance is evaluated based on the accuracy of the predicted labels as compared to the given labels in the dataset. Dinan et al's (2020) Transformer model achieved an average of 67.13% accuracy in binary gender prediction across the ABOUT, TO, and AS tasks. See the paper for more results.
+## What is DagsHub?
+[DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
 
+## What is this challenge?
+**Your mission is to import datasets from various sources**, such as Kaggle, Hugging Face, or any other relevant platforms, and integrate them into DagsHub. Hosting those datasets on DagsHub exposes them to our Data Engine, unlocking unique data management capabilities such as query, visualize, annotate, and streaming for ML training. Not only that, by adding crucial information and context to these datasets, you'll significantly boost their accessibility and usability. 
 
-# License
-
-The Multi-Dimensional Gender Bias Classification dataset is licensed under the MIT License.
-
-# Additional information
-
-## Dataset Curators
-Emily Dinan, Angela Fan, Ledell Wu, Jason Weston, Douwe Kiela, and Adina Williams at Facebook AI Research. Angela Fan is also affiliated with Laboratoire Lorrain d’Informatique et Applications (LORIA).
+## How do I contribute?
+To simplify this process, we've created a user-friendly Colab notebook that will do the import for you! Here's a quick overview of what you need to do:
+1. Sign-up to [Hacktoberfest](https://hacktoberfest.digitalocean.com/profile) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
+2. Join [Hacktoberfest 2023 Discord channel](https://discord.gg/xAGgkNht).
+3. Claim the dataset by opening a new issue [here](https://github.com/DagsHub/open-source-ml-datasets) and naming it after the dataset. Please make sure that the dataset wasn't claimed and that it’s open source.
+4. Import a Dataset using those Colab notebooks: [Hugging Face notebook](https://colab.research.google.com/drive/1WD5V2Xp4nRm1t1LrawqZgW4IqRryQZ9N?usp=sharing) or [Kaggle notebook](https://colab.research.google.com/drive/16PV-m1IgeqG0PBNnySWkvHGLHpghalJT?usp=sharing).
+5. Add a [README.md](http://README.md) file (e.g., [Librispeech ASR corpus](https://dagshub.com/DagsHub/Librispeech-ASR-corpus/src/master/README.md)) **to the repository on DagsHub** with the following information:
+    1. Description
+    2. Citation
+    3. Prerequisite
+    4. License 
+    5. Additional information
+    
+    **Note:** You can create a [markdown file](https://www.markdownguide.org/getting-started/) locally, upload it to DagsHub from the repository UI, and edit it from DagsHub - no need for coding whatsoever!
+6. Add relevant tags to the repository and files.
+7. Add the `dataset`, `hacktoberfest-2023`, `hacktoberfest` labels to the DagsHub repository.
+8. Open a Pull Request on [here](https://github.com/DagsHub/open-source-ml-datasets) with the README file and a link to the DagsHub repo.
