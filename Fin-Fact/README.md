@@ -1,6 +1,8 @@
-# Fin-Fact - Financial Fact-Checking Dataset
+https://dagshub.com/Sookeyy-12/Fin-Fact
 
-## Descriptoin
+# [Fin-Fact - Financial Fact-Checking Dataset](https://dagshub.com/Sookeyy-12/Fin-Fact)
+
+## Description
 
 Welcome to the Fin-Fact repository! Fin-Fact is a comprehensive dataset designed specifically for financial fact-checking and explanation generation. This README provides an overview of the dataset, how to use it, and other relevant information. [Click here](https://arxiv.org/abs/2309.08793) to access the paper.
 
