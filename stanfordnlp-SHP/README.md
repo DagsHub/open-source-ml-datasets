@@ -1,3 +1,5 @@
+https://dagshub.com/Sookeyy-12/SHP
+
 ---
 task_categories:
 - text-generation
@@ -16,7 +18,7 @@ size_categories:
 language:
 - en
 ---
-# 🚢  Stanford Human Preferences Dataset (SHP)
+# 🚢  [Stanford Human Preferences Dataset (SHP)](https://dagshub.com/Sookeyy-12/SHP)
 ## Description
 SHP is a dataset of **385K collective human preferences** over responses to questions/instructions in 18 different subject areas, from cooking to legal advice.
 The preferences are meant to reflect the helpfulness of one response over another, and are intended to be used for training RLHF reward models and NLG evaluation models (e.g., [SteamSHP](https://huggingface.co/stanfordnlp/SteamSHP-flan-t5-xl)).
