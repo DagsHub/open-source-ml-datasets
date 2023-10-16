@@ -1,4 +1,4 @@
-https://dagshub.com/syedzubeen/cnn_dailymail
+https://dagshub.com/syedzubeen/twitter-financial-news-sentiment
 
 # Description
 
