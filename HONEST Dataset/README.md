@@ -1,3 +1,5 @@
+https://dagshub.com/syedzubeen/honest
+
 # Description
 
 The HONEST dataset comprises a set of templates for measuring hurtful sentence completions in language models. The templates are provided in six languages (English, Italian, French, Portuguese, Romanian, and Spanish) for binary gender and in English for LGBTQAI+ individuals. WARNING: This dataset contains content that are offensive and/or hateful in nature.
