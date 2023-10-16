@@ -1,4 +1,6 @@
-# HF's Hate-Speech-Offensive Dataset
+https://dagshub.com/Sookeyy-12/hate_speech_offensive
+
+# [HF's Hate-Speech-Offensive Dataset](https://dagshub.com/Sookeyy-12/hate_speech_offensive)
 
 ## Description
 - **Homepage:** https://github.com/t-davidson/hate-speech-and-offensive-language
