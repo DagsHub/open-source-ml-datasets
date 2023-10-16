@@ -1,4 +1,6 @@
-# CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society
+https://dagshub.com/Sookeyy-12/physics
+
+# [CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society](https://dagshub.com/Sookeyy-12/physics)
 
 ## Description
 - **Github:** https://github.com/lightaime/camel
