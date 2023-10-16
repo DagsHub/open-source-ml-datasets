@@ -1,3 +1,5 @@
+https://dagshub.com/syedzubeen/bbc_hindi_nli
+
 # Description
 
 Dataset for Natural Language Inference in Hindi Language. BBC Hindi Dataset consists of textual-entailment pairs. Each row of the Datasets if made up of 4 columns - Premise, Hypothesis, Label and Topic. Context and Hypothesis is written in Hindi while Entailment_Label is in English. Entailment_label is of 2 types - entailed and not-entailed. Dataset can be used to train models for Natural Language Inference tasks in Hindi Language.
