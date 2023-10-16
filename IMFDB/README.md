@@ -1,4 +1,6 @@
-                                    Here are the details about the Indian Movie Faces Dataset (IMFDB) Face Recognition dataset:
+                                    Here are the details about the Indian Movie Faces Dataset (IMFDB) A Face Recognition dataset:
+Link to the Dataset:-
+https://dagshub.com/Ln11211/indian-movie-faces-datasetimfdb-face-recognition
 
 **Description**:
 The Indian Movie Face database (IMFDB) is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability in terms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. This dataset can be used for Face Recognition.
