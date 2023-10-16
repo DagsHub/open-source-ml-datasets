@@ -1,3 +1,5 @@
+https://dagshub.com/syedzubeen/clinical_trial_reason_to_stop
+
 # Description
 
 This dataset contains a curated classification of more than 5000 reasons why a clinical trial has suffered an early stop. The text has been extracted from clinicaltrials.gov, the largest resource of clinical trial information. The text has been curated by members of the Open Targets organisation, a project aimed at providing data relevant to drug development.
