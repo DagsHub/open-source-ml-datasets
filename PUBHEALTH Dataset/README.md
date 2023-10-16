@@ -1,3 +1,5 @@
+https://dagshub.com/syedzubeen/health_fact
+
 # Description
 
 PUBHEALTH is a comprehensive dataset for explainable automated fact-checking of public health claims. Each instance in the PUBHEALTH dataset has an associated veracity label (true, false, unproven, mixture). Furthermore, each instance in the dataset has an explanation text field. The explanation is a justification for which the claim has been assigned a particular veracity label.
