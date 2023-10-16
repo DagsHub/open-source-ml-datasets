@@ -1,3 +1,5 @@
+https://dagshub.com/syedzubeen/all-scam-spam
+
 # Description
 
 This is a large corpus of 42,619 preprocessed text messages and emails sent by humans in 43 languages. is_spam=1 means spam and is_spam=0 means ham.
