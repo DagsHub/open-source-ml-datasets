@@ -1,4 +1,4 @@
-The link to the dataset:- https://dagshub.com/DagsHub/open-source-ml-datasets/src/main/Brain_tumor_dataset
+The link to the dataset:- https://dagshub.com/PR-Peri/chest-ct-scan-data
 
 
 Description: 
